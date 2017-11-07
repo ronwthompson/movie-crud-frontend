@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<title>Movie Reviews</title>
+<body>
+    <h1>Movie Reviews!</h1>
+    <div class='container-fluid'>
+        <div class='row'>
+            <div class='col-1'>
+            </div>
+            <div class='col-10' id='get-all-container'>
+                <input type='text' id='title' placeholder="Title">
+                <input type='text' id='director' placeholder="Director">
+                <input type='number' min='1900' id='year' placeholder="Year">
+                <input type='number' min='1' max='5' id='rating' placeholder="My Rating">
+                <input type='url' id='movieUrl' placeholder="Poster URL">
+                <button id='submitContent'>Add new Movie</button>
+            </div>
+            <div class='col-1'>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-1'>
+            </div>
+            <div class='col-10' id='status-container'>
+            </div>
+            <div class='col-1'>
+            </div>
+        </div>
+    </div>
+    <div class='container-fluid' id='bottom'>
+    <div class='row'>
+        <div class='col-1'>
+        </div>
+        <div class='col-10' id='simpleMenu'>
+            <ul>
+                <a href='./index.html'><li>Home</li></a>
+                <a href='./movies.html'><li>All Movies</li></a>
+                <a href='./post.html'><li>New Movie</li></a>
+            </ul>
+        </div>
+        <div class='col-1'>
+    </div>
+    </div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/post.js"></script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<title>Movie Reviews</title>
+<body>
+	<h1>Movie Reviews!</h1>
+    <div class='container-fluid'>
+        <div class='row'>
+            <div class='col-1'>
+            </div>
+            <div class='col-10' id='get-all-container'>
+                <div class='row' id='moviePoster'>
+                </div>
+                <div class='row'>
+                    <div class='col-2'>
+                        <h2>Title</h2>
+                    </div>
+                    <div class='col-2'>
+                        <h2>Director</h2>
+                    </div>
+                    <div class='col-2'>
+                        <h2>Year</h2>
+                    </div>
+                    <div class='col-2'>
+                        <h2>My Rating</h2>
+                    </div>
+                    <div class='col-2'>
+                    </div>
+                    <div class='col-2'>
+                    </div>
+                </div>
+            </div>
+            <div class='col-1'>
+            </div>
+        </div>
+    </div>
+    <div class='container-fluid' id='bottom'>
+        <div class='row' id='bottomMenu'>
+            <div class='col-1'>
+            </div>
+            <div class='col-10' id='simpleMenu'>
+                <ul>
+                    <a href='./index.html'><li>Home</li></a>
+                    <a href='./movies.html'><li>All Movies</li></a>
+                    <a href='./post.html'><li>New Movie</li></a>
+                </ul>
+            </div>
+            <div class='col-1'>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/get.js"></script>
+<script src="js/delete.js"></script>
+</html>

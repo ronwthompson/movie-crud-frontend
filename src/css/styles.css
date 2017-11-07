@@ -1,0 +1,47 @@
+#bottom {
+    position: fixed;
+    bottom: 0;
+    background-color: #DDD;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.post {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline;
+}
+
+a {
+    margin: 10px 20px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#get-all-container {
+    text-align: center;
+}
+
+img {
+    max-width:400px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+#submitButton {
+    margin: 0 auto;
+}
